@@ -53,21 +53,20 @@ while running and i < iter:
 
 
     status = np.copy(newStatus)
-    time.sleep(0.1)
 
     stringPrint = ''
     for x in range(0, nX):
         for y in range(0, nY):
 
             if newStatus[x, y] == 1:
-                stringPrint = stringPrint + ' * '
+                stringPrint = stringPrint + '*'
             else:
-                stringPrint = stringPrint + ' . '
+                stringPrint = stringPrint + '.'
 
         stringPrint = stringPrint + '\n'
 
     print(stringPrint)
-    print((nX*'=')*3)
+    print(nX*'=')
 
     i = i + 1
 
