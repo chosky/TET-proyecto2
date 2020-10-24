@@ -1,6 +1,5 @@
-Installation manual to execute the mpi project on the DCA
+#Installation manual to execute the mpi project on the DCA
 Operative System: Centos 7
-
 
 Follow the next steps: 
 
@@ -16,8 +15,8 @@ Install and Exec Virtual-env
 3. $ yum install python-pip
 4. $ pip install virtualenv 
 5. $ virtualenv entorno
-# entorno is the name of our virtual enviroment
-# This command is to activate the virtual-env
+ //entorno is the name of our virtual enviroment
+ //This command is to activate the virtual-env
 6. $ source entorno/bin/activate 
 
 Install libraries
