@@ -1,4 +1,4 @@
-#Installation manual to execute the mpi project on the DCA
+# Installation manual to execute the mpi project on the DCA
 Operative System: Centos 7
 
 Follow the next steps: 
